@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <menu
+               id="com.popup.editor_menu.Editor_menu"
+               label="Editor  menu">
+            <command
+                  commandId="tt.command1.vdg"
+                  id="tt.command1.vdg"
+                  label="lable variable dependency"
+                  style="push">
+            </command>
+            <command
+                  commandId="tt.command2.conhension"
+                  id="tt.command2.conhension"
+                  label="method cohension"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="Labeldep"
+            commandId="tt.command1.vdg">
+      </handler>
+      <handler
+            class="MetCohesion"
+            commandId="tt.command2.conhension">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="tt.category1"
+            id="tt.command1.vdg"
+            name="name">
+      </command>
+      <category
+            id="tt.category1"
+            name="name">
+      </category>
+      <command
+            categoryId="tt.category1"
+            id="tt.command2.conhension"
+            name="name">
+      </command>
+   </extension>
+
+</plugin>
