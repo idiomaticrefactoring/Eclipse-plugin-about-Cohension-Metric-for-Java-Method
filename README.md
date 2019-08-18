@@ -12,7 +12,7 @@ It implements two functions for Java methods and make a plugin for eclipse. The 
 ## Compute cohension
 1. output variable determination. 
 2. cohension algorithm
-![Alt Image Text](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/cohension%20classification.png)
+![cohesion classification](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/cohension%20classification.png)
 ![Alt Image Text](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/cohension%20algorithm.png "cohension algorithm")
 ## Plugin implementation
 ![plugin implementation](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/plugin%20implementation.png "plugin implementation")
