@@ -12,19 +12,32 @@ It implements two functions for Java methods and make a plugin for eclipse. The 
 ## Compute cohension
 1. output variable determination. 
 2. cohension algorithm
-![Alt Image Text](./png/cohension classification.png)
-![Alt Image Text](./png/cohension algorithm.png "cohension algorithm")
+![Alt Image Text](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/cohension%20classification.png)
+![Alt Image Text](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/cohension%20algorithm.png "cohension algorithm")
 ## Plugin implementation
-![plugin implementation](png/plugin implementation.png "plugin implementation")
-![choose specified method](png/choose method.png "choose specified method")
+![plugin implementation](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/plugin%20implementation.png "plugin implementation")
+![choose specified method](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/choose%20method.png "choose specified method")
 ## Result 
 
 ```
-public int sum(int n,int result,int prod){		int i=1;		int j=1;		result=0;		prod=1;		while (i<n){			i=i+1;			result=result+i;		}		while (j<n){			j=j+1;			prod=prod*j;		}	}
+public int sum(int n,int result,int prod){
+		int i=1;
+		int j=1;
+		result=0;
+		prod=1;
+		while (i<n){
+			i=i+1;
+			result=result+i;
+		}
+		while (j<n){
+			j=j+1;
+			prod=prod*j;
+		}
+	}
 	
 ```
-![Alt Image Text](png/variable dependency.png "variable dependency")
-![Alt Image Text](png/cohension result.png "cohension result")
+![Alt Image Text](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/variable%20dependency.png "variable dependency")
+![Alt Image Text](https://github.com/zjzh/Eclipse-plugin-about-Cohension-Metric-for-Java-Method/blob/master/png/cohension%20result.png "cohension result")
 ## Code description
 1. the implementation of variable dependency graph in com.vdg
 		Helloworld represent test code
