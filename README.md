@@ -60,10 +60,10 @@ NOTE: It needs GraphViz, download from <https://graphviz.gitlab.io/_pages/Downlo
 [2]深入理解菜单<http://blog.csdn.net/zhuce0001/article/details/53231670>
 
 [3]JDT的AST文档<https://max.book118.com/html/2017/0213/90939698.shtm> <https://wenku.baidu.com/view/a0b8e07931b765ce050814ac.html> 
-<https://www.programcreek.com/2012/08/parse-a-sequence-of-java- statements-by-using-jdt-astparser/>
+<https://www.programcreek.com/2012/08/parse-a-sequence-of-java-statements-by-using-jdt-astparser/>
 
 [4]DEF-USE chain
 <https://en.wikipedia.org/wiki/Use-define_chain> 
-<http://web.cs.iastate.edu/~weile/cs513x/5.DependencySlicing.pdf> <https://www.seas.harvard.edu/courses/cs252/2011sp/slides/Lec02 -Dataflow.pdf>
+<http://web.cs.iastate.edu/~weile/cs513x/5.DependencySlicing.pdf> <https://www.seas.harvard.edu/courses/cs252/2011sp/slides/Lec02-Dataflow.pdf>
 
 [5]eclipse 插件开发第 3 版
